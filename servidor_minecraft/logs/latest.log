@@ -1,0 +1,876 @@
+[07Dec2024 06:37:25.397] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[07Dec2024 06:37:25.414] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[07Dec2024 06:37:28.824] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Dec2024 06:37:28.990] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/test/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Dec2024 06:37:29.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[07Dec2024 06:37:29.984] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Dec2024 06:37:29.991] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Dec2024 06:37:29.996] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/test/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Dec2024 06:37:30.737] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[07Dec2024 06:37:35.577] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Dec2024 06:37:35.819] [main/ERROR] [mixin/]: Mixin config yuushya.mixins.json does not specify "minVersion" property
+[07Dec2024 06:37:35.938] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[07Dec2024 06:37:36.116] [main/WARN] [mixin/]: Reference map 'doggytalents.refmap.json' for doggytalents.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Dec2024 06:37:38.485] [main/WARN] [mixin/]: Error loading class: com/illusivesoulworks/diet/common/DietApiImpl (java.lang.ClassNotFoundException: com.illusivesoulworks.diet.common.DietApiImpl)
+[07Dec2024 06:37:38.490] [main/WARN] [mixin/]: @Mixin target com.illusivesoulworks.diet.common.DietApiImpl was not found caupona.mixins.json:DietApiImplMixin
+[07Dec2024 06:37:39.567] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[07Dec2024 06:37:54.408] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zbh000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[07Dec2024 06:37:57.103] [modloading-worker-0/INFO] [nalex.wafflesplaceablefoods.WafflesPlaceableFoods/]: Initialising Waffle's Placeable Foods...!
+[07Dec2024 06:37:57.124] [modloading-worker-0/INFO] [nalex.wafflesplaceablefoods.WafflesPlaceableFoods/]: Waffle's Placeable Foods initialisation complete
+[07Dec2024 06:37:59.707] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[07Dec2024 06:38:00.128] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id pandalib:config_sync
+[07Dec2024 06:38:00.262] [modloading-worker-0/INFO] [fallingtrees | Config/]: Successfully loaded config 'fallingtrees_common'
+[07Dec2024 06:38:00.293] [modloading-worker-0/INFO] [fallingtrees | Config/]: Successfully saved config 'fallingtrees_common'
+[07Dec2024 06:38:00.608] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id beachparty:mouse_scroll
+[07Dec2024 06:38:02.899] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[07Dec2024 06:38:02.900] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[07Dec2024 06:38:07.961] [modloading-worker-0/INFO] [yuushya/]: Yuushya has been loaded successfully!
+[07Dec2024 06:38:21.657] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7c32d03d]
+[07Dec2024 06:38:21.679] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[07Dec2024 06:38:21.682] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
+[07Dec2024 06:38:21.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/DashieDev/DoggyTalentsNext/0d05eaff7c4b588831ca6480f737187f44dda820/check_for_update/update.json
+[07Dec2024 06:38:22.878] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[07Dec2024 06:38:23.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Found status: BETA Current: 1.18.36 Target: 1.17.2
+[07Dec2024 06:38:23.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[07Dec2024 06:38:23.806] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
+[07Dec2024 06:38:23.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[07Dec2024 06:38:24.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.8 Target: 1.0.8
+[07Dec2024 06:38:24.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[07Dec2024 06:38:24.408] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[07Dec2024 06:38:24.408] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Dec2024 06:38:24.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[07Dec2024 06:38:24.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterdogs_dtn] Starting version check at https://raw.githubusercontent.com/Mrblueyeti/BetterDogsForDTN/5a1f7643d862e85c05f1e9cd248c02e7fd1603f6/check_fior_updates/update.json
+[07Dec2024 06:38:24.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterdogs_dtn] Found status: BETA Current: 1.2.2 Target: 1.0
+[07Dec2024 06:38:48.784] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Dec2024 06:39:06.376] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/test/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
+[07Dec2024 06:39:06.377] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/test/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
+[07Dec2024 06:39:08.984] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[07Dec2024 06:39:09.296] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:couch as it is missing following references: cozy_home:couch_oak_white_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:couch_oak_white_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:couch_oak_white (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:couch_oak_white_left (from cozy_home-3.0.4-forge-1.20.1.jar)
+[07Dec2024 06:39:09.305] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_0 as it is missing following references: cozy_home:oak_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_oak_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_spruce_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_birch_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_jungle_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_acacia_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_cherry_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_crimson (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_warped (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_white (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_orange (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_magenta (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_light_blue (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_yellow (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_lime (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_pink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_gray (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_light_gray (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_cyan (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_purple (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_blue (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_brown (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_green (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_red (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_black (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_quartz (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_spruce (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_birch (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_jungle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_acacia (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_dark_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_mangrove (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_cherry (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_crimson (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_warped (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_oak_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_birch_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_jungle_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_dark_oak_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_mangrove_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_cherry_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_bamboo_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_crimson_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_warped_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_spruce_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_acacia_0 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_spruce (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_birch (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_jungle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_acacia (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_dark_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_mangrove (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_cherry (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_quartz (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_crimson_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_warped_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:tent (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chandelier_golden (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:glass_chair (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:rug_trader_single (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_white_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_orange_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_magenta_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_light_blue_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_yellow_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_lime_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_pink_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_gray_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_light_gray_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_cyan_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_purple_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_blue_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_brown_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_green_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_red_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:lamp_black_off (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_oak_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_oak_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_spruce_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_spruce_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_spruce_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_birch_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_birch_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_birch_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_jungle_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_jungle_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_jungle_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_acacia_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_acacia_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_acacia_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_dark_oak_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_dark_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_dark_oak_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_mangrove_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_mangrove_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_mangrove_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_crimson_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_crimson_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_crimson_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_warped_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_warped_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_warped_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_planked_wall_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_planked_wall_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_planked_wall_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:tent_open (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:bamboo_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_birch_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_acacia_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_dark_oak_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_spruce_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_strump_jungle_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_jungle_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_mangrove_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_crimson_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_warped_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_oak_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_oak_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_oak_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_birch_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_birch_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_birch_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_jungle_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_jungle_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_jungle_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_dark_oak_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_dark_oak_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_dark_oak_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_mangrove_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_mangrove_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_mangrove_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_bamboo_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_bamboo_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_bamboo_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_crimson_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_crimson_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_crimson_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_warped_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_warped_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_warped_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_spruce_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_spruce_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_spruce_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_acacia_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_acacia_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_acacia_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_oak_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_oak_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_spruce_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_spruce_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_spruce_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_birch_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_birch_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_birch_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_jungle_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_jungle_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_jungle_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_acacia_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_acacia_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_acacia_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_dark_oak_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_dark_oak_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_dark_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_mangrove_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_mangrove_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_mangrove_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_crimson_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_crimson_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_crimson_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_warped_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_warped_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_warped_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_oak_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_oak_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_oak_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_oak_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_spruce_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_spruce_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_spruce_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_spruce_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_spruce_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_birch_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_birch_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_birch_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_birch_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_birch_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_jungle_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_jungle_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_jungle_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_jungle_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_jungle_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:quartz_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:quartz_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:quartz_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_quartz_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_quartz_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_quartz_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:bamboo_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:bamboo_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:bamboo_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_brick_long (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_netherbrick_long (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_stonebrick_long (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_brick_intake (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_stonebrick_intake (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_netherbrick_intake (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_brick_solid (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_stonebrick_solid (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_netherbrick_solid (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_cobblestone_long (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_cobblestone_intake (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:chimney_cobblestone_solid (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_quartz_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:rug_trader_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:rug_trader_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:rug_trader_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:rug_trader_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:rug_trader_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_acacia_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_acacia_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_acacia_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_acacia_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_acacia_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_bamboo_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_dark_oak_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_mangrove_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_crimson_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_crimson_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_crimson_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_crimson_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_crimson_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_warped_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_warped_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_warped_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_warped_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_warped_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:cherry_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_cherry_1 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_cherry_2 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:plank_cherry_3 (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_cherry_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_cherry_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_cherry_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_cherry_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_cherry_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:desk_cherry_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:cherry_mirror_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:cherry_mirror_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:cherry_mirror_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_cherry_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_cherry_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_cherry_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_cherry_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_cherry_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_corner (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_double (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_side (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_straight (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:table_stump_cherry_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:oak_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:spruce_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:birch_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:jungle_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:acacia_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:bamboo_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:bamboo_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:bamboo_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:cherry_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:cherry_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:cherry_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:dark_oak_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:crimson_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:mangrove_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:quartz_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:quartz_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:quartz_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:warped_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar)
+[07Dec2024 06:39:09.348] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_1 as it is missing following references: cozy_home:counter_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_oak_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_oak_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_spruce (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_birch (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_birch_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_birch_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_jungle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_acacia (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_cherry (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_crimson (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_warped (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_warped_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_warped_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_quartz (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_oak_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_spruce_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_birch_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_jungle_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_acacia_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_dark_oak_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_mangrove_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_cherry_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_crimson_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_warped_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_bamboo_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_quartz_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_quartz_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_quartz_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:drawer_quartz_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:quartz_chair_tucked (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_oak_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_spruce_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_spruce_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_birch_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_birch_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_jungle_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_jungle_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_acacia_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_acacia_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_dark_oak_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_dark_oak_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_mangrove_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_mangrove_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_crimson_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_crimson_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_warped_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_warped_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_bamboo_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_bamboo_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_quartz_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_quartz_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_oak_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_oak_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_oak_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_oak_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_spruce_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_birch_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_birch_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_birch_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_birch_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_jungle_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_acacia_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_dark_oak_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_mangrove_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_crimson_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_warped_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_warped_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_warped_inner_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_warped_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_outer_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_outer_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_inner_corner_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:counter_cherry_corner_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_cherry_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:grandfather_clock_cherry_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_horizontal_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_horizontal_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_horizontal_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_vertical_bottom (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_vertical_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_vertical_top (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_top_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_top_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_top_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_middle_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_middle_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_bottom_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_bottom_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+	cozy_home:fireplace_oak_bottom_right (from cozy_home-3.0.4-forge-1.20.1.jar)
+[07Dec2024 06:39:10.139] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:yuushya:blocks/painter_gift_box
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'yuushya:get_lit_item'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[07Dec2024 06:39:11.756] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caupona:thirst/bowl_water as it's serializer returned null
+[07Dec2024 06:39:11.938] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:drawer_quartz_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:deleted_mod_element'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 06:39:11.991] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:andesite_brick_to_block_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:andesite_brick'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 06:39:12.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caupona:water_level/plain_water as it's serializer returned null
+[07Dec2024 06:39:12.021] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:spruce_fireplace_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:plank_spruce_0'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 06:39:12.091] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe caupona:crafting/book
+com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 06:39:12.107] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:painter_gift_box
+com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.0-universal.jar%23156!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 06:39:12.173] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caupona:water_level/nail_soup as it's serializer returned null
+[07Dec2024 06:39:12.174] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caupona:water_level/dilute_soup as it's serializer returned null
+[07Dec2024 06:39:12.198] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe caupona:water_level/wooden_cup_nail_soup as it's serializer returned null
+[07Dec2024 06:39:12.243] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 31 recipes
+[07Dec2024 06:39:12.606] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3151 advancements
+[07Dec2024 06:39:12.803] [main/INFO] [Caupona recipe generator/]: Building recipes...
+[07Dec2024 06:39:12.944] [main/INFO] [Caupona recipe generator/]: Recipes built, cost 139.4 ms
+[07Dec2024 06:39:22.708] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Dec2024 06:39:22.709] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Dec2024 06:39:22.709] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[07Dec2024 06:39:22.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Dec2024 06:39:23.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Dec2024 06:39:23.098] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Dec2024 06:39:23.226] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Dec2024 06:39:23.226] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Dec2024 06:39:23.227] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Dec2024 06:39:23.228] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Dec2024 06:39:23.314] [Server thread/INFO] [Framework/]: Loading server configs...
+[07Dec2024 06:39:23.352] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Dec2024 06:39:23.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Dec2024 06:39:30.522] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.527] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.529] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.531] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.534] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.542] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.543] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.553] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.553] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.555] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.556] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:30.829] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:31.329] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:31.828] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 06:39:32.328] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[07Dec2024 06:39:33.178] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9350 ms
+[07Dec2024 06:39:33.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.930s)! For help, type "help"
+[07Dec2024 06:39:33.288] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
