@@ -2328,3 +2328,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
 [09Dec2024 12:57:15.272] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to HeavenlyDeity
 [09Dec2024 12:57:15.773] [Netty Epoll Server IO #2/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from HeavenlyDeity
 [09Dec2024 12:57:18.325] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x3242acf150ddb4b6
+[09Dec2024 13:01:37.139] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Party Island
+[09Dec2024 13:01:37.269] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Party Island
+[09Dec2024 13:06:37.156] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Party Island
+[09Dec2024 13:06:37.462] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Party Island
+[09Dec2024 13:08:51.962] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HeavenlyDeity lost connection: Disconnected
+[09Dec2024 13:08:51.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HeavenlyDeity left the game
