@@ -880,3 +880,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
 [09Dec2024 12:57:15.773] [Netty Epoll Server IO #2/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from HeavenlyDeity
 [09Dec2024 13:08:51.962] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HeavenlyDeity lost connection: Disconnected
 [09Dec2024 13:08:51.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HeavenlyDeity left the game
+[09Dec2024 13:09:41.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Dec2024 13:09:41.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Dec2024 13:09:41.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Dec2024 13:09:41.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Party Island]'/minecraft:overworld
+[09Dec2024 13:09:41.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Party Island]'/minecraft:the_end
+[09Dec2024 13:09:41.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Party Island]'/minecraft:the_nether
+[09Dec2024 13:09:41.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Dec2024 13:09:41.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Dec2024 13:09:41.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Dec2024 13:09:41.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Dec2024 13:09:41.669] [Server thread/INFO] [Framework/]: Unloading server configs...
+[09Dec2024 13:09:41.675] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[09Dec2024 13:09:41.688] [Server thread/INFO] [Framework/]: Finished unloading server configs
