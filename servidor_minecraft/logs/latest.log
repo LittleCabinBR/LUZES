@@ -874,3 +874,12 @@ com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
 [10Dec2024 16:43:56.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HeavenlyDeity joined the game
 [10Dec2024 16:43:56.882] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to HeavenlyDeity
 [10Dec2024 16:43:57.649] [Netty Epoll Server IO #2/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from HeavenlyDeity
+[10Dec2024 16:54:04.031] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HeavenlyDeity lost connection: Disconnected
+[10Dec2024 16:54:04.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HeavenlyDeity left the game
+[10Dec2024 16:54:15.180] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player HeavenlyDeity is dbfb7fc9-cd91-4abb-b8db-afa42f710ce1
+[10Dec2024 16:54:22.342] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HeavenlyDeity[/127.61.81.149:57197] logged in with entity id 463 at (857.3128992465255, 121.0, -825.1562332225893)
+[10Dec2024 16:54:22.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HeavenlyDeity joined the game
+[10Dec2024 16:54:22.563] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to HeavenlyDeity
+[10Dec2024 16:54:22.817] [Netty Epoll Server IO #2/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from HeavenlyDeity
+[10Dec2024 16:56:41.077] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HeavenlyDeity lost connection: Disconnected
+[10Dec2024 16:56:41.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HeavenlyDeity left the game
