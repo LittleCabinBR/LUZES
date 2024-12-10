@@ -893,3 +893,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
 [10Dec2024 17:03:19.849] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HeavenlyDeity moved too quickly! -9.305678463174672,0.0,-5.43857429932973
 [10Dec2024 17:03:20.310] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id polly_pets:corgi
 [10Dec2024 17:04:24.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HeavenlyDeity moved too quickly! 0.9775102032801897,-10.321859847054554,1.3084319337848456
+[10Dec2024 17:19:10.308] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MagoCeifeiro is 4030def6-fe49-4483-af72-81f14755099f
+[10Dec2024 17:19:22.910] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MagoCeifeiro[/127.212.217.2:52745] logged in with entity id 2406 at (772.21769760395, 111.00981157903405, -955.9623810742304)
+[10Dec2024 17:19:22.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MagoCeifeiro joined the game
+[10Dec2024 17:19:22.945] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to MagoCeifeiro
+[10Dec2024 17:19:23.515] [Netty Epoll Server IO #2/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from MagoCeifeiro
+[10Dec2024 17:23:47.530] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MagoCeifeiro lost connection: Disconnected
+[10Dec2024 17:23:47.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MagoCeifeiro left the game
