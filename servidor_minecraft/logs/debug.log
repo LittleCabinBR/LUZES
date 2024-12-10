@@ -2698,3 +2698,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
 [10Dec2024 17:04:24.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HeavenlyDeity moved too quickly! 0.9775102032801897,-10.321859847054554,1.3084319337848456
 [10Dec2024 17:05:10.554] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Party Island
 [10Dec2024 17:05:10.610] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Party Island
+[10Dec2024 17:10:10.502] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Party Island
+[10Dec2024 17:10:10.531] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Party Island
+[10Dec2024 17:15:10.490] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Party Island
+[10Dec2024 17:15:10.540] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Party Island
