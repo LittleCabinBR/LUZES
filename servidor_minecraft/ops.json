@@ -4,5 +4,11 @@
     "name": "HeavenlyDeity",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "dbfb7fc9-cd91-4abb-b8db-afa42f710ce1",
+    "name": "HeavenlyDeity",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
